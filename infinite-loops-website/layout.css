@@ -1,0 +1,19 @@
+html {
+}
+body {
+    margin: 0;
+    padding: 0;
+    color: #eee;
+    text-align: center;
+    background-color: #3C3C3C;
+}
+#head-wrapper {
+    height: 150px;
+    margin: 0px;
+    background-color: #333;
+}
+.navbar{
+    border: 0px;
+    border-bottom: 3px solid black;
+    color: #B88931;
+}
