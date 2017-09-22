@@ -7,7 +7,7 @@ body {
     text-align: center;
     background-color: #3C3C3C;
 }
-#head-wrapper {
+#header {
     height: 150px;
     margin: 0px;
     background-color: #333;
@@ -15,5 +15,9 @@ body {
 .navbar{
     border: 0px;
     border-bottom: 3px solid black;
-    color: #B88931;
+    color: #999;
+}
+#nav-wrapper ul li a:hover {
+    color: #eee;
+    background-color: rgba(0,0,0,.2);
 }
