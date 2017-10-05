@@ -5,7 +5,7 @@ body {
     padding: 0;
     color: #eee;
     text-align: center;
-    background-color: #3C3C3C;
+    background-color: #8F8F8F;
 }
 #header {
     height: 150px;
@@ -14,10 +14,16 @@ body {
 }
 .navbar{
     border: 0px;
+    border-radius: 0px;
+    border-top: 2px solid #00d8a9;
     border-bottom: 3px solid black;
     color: #999;
 }
 #nav-wrapper ul li a:hover {
     color: #eee;
     background-color: rgba(0,0,0,.2);
+}
+.outline {
+    padding: 0px;
+    border: white 2px solid;
 }
