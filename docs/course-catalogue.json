@@ -1,0 +1,80 @@
+[
+    {
+        "year" : "Freshman",
+        "term" : "Fall",
+        "title" : "Programming I",
+        "description" : "Fundamentals of the software development process with emphasis on program design (algorithm development), structured programming techniques and code and test using a structured, modular programming language."
+    },
+    {
+        "year" : "Freshman",
+        "term" : "Spring",
+        "title" : "Programming II",
+        "description" : "Properties, representation, and manipulation of internal information structures including lists, queues, stacks, and trees."
+    },
+    {
+        "year" : "Sophomore",
+        "term" : "Fall",
+        "title" : "Object Oriented Programming I",
+        "description" : "Introduction to object-oriented programming (OOP) concepts using the C++ programming language. Topics include classes, objects, exception handling, operator overloading, inheritance, polymorphism, templates (generics), stream and file input/output, and the Standard Template Library (STL)."
+    },
+    {
+        "year" : "Sophomore",
+        "term" : "Fall",
+        "title" : "Algorthims",
+        "description" : "Topics include review of C programming language concepts and theory, design, analysis, implementation, and application of fundamental computer algorithms."
+    },
+    {
+        "year" : "Sophomore",
+        "term" : "Spring",
+        "title" : "Object Oriented Programming II",
+        "description" : "Review of object-oriented program (OOP) concepts using the Java programming language. Topics (in addition those listed for CS2313) include graphical user interface (GUI) design and implementation, regular expressions, applets, multithreading, networking, and database access"
+    },
+    {
+        "year" : "Sophomore",
+        "term" : "Spring",
+        "title" : "Computer Architecture",
+        "description" : "Introduction to the logical organization and design of digital computer hardware. Topics include simple digital logic design, memory architectures, microprogramming, instruction set architecture (ISA), and assembly language programming."
+    },
+    {
+        "year" : "Junior",
+        "term" : "Fall",
+        "title" : "Intro to Systems Analysis and Design",
+        "description" : "An introduction to the use of current methodologies for the analysis and design of various types of computer software systems. Methodologies studied include both the traditional and object-oriented approaches, including Universal Markup Language (UML)."
+    },
+    {
+        "year" : "Junior",
+        "term" : "Fall",
+        "title" : "Operating Systems",
+        "description" : "The study of the design and implementation of computer operating systems, including issues in process, memory, file system, storage, and device management."
+    },
+    {
+        "year" : "Junior",
+        "term" : "Spring",
+        "title" : "Software Engineering",
+        "description" : "Engineering approach to software development focusing on product development in a team with appropriate documentation."
+    },
+    {
+        "year" : "Junior",
+        "term" : "Spring",
+        "title" : "Data Communication",
+        "description" : "Fundamentals of data communications, TCP/IP protocol architecture, media, transmission, encoding, error detection and handling, link control, flow control, multiplexing. Local area networks. WAN technology and protocols, circuit and packet switching, IP, routing. Wireless networks. Different applications."
+    },
+    {
+        "year" : "Senior",
+        "term" : "Fall",
+        "title" : "Survey of Programming Languages",
+        "description" : "Survey of existing high-level computer programming languages with emphasis on implementation of language concepts. Students design a general-purpose programming language and develop a working compiler for their language."
+    },
+    {
+        "year" : "Senior",
+        "term" : "Fall",
+        "title" : "Files and Databases",
+        "description" : "Database system concepts, relational data model and relational database, SQL, relational algebra, entity relationship model, UML diagrams, database programming techniques, functional dependencies and database normalization, database security. File structures, XML files, indexing, hashing, B trees, and B+ trees."
+    },
+    {
+        "year" : "Senior",
+        "term" : "Spring",
+        "title" : "Senior Project",
+        "description" : "Application of software engineering techniques to the analysis, design, implementation, and testing of a comprehensive computer software development project."
+    }
+]

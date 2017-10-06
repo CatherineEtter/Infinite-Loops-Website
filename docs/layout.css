@@ -6,6 +6,10 @@ body {
     color: #eee;
     text-align: center;
     background-color: #8F8F8F;
+    /* To be added
+    background: url(images/background.png) no-repeat center center fixed;
+    background-size: cover;
+    */
 }
 #header {
     height: 150px;
@@ -15,7 +19,7 @@ body {
 .navbar{
     border: 0px;
     border-radius: 0px;
-    border-top: 2px solid #00d8a9;
+    border-top: 2px solid #00fbf3;
     border-bottom: 3px solid black;
     color: #999;
 }
@@ -23,7 +27,30 @@ body {
     color: #eee;
     background-color: rgba(0,0,0,.2);
 }
+.m-title-content {
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 2px 2px black;
+}
+.s-title-content {
+    text-align: center;
+}
+.body-box {
+    text-align: left;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 3px 3px black;
+    background: rgba(0,0,0,.7);
+}
+/*Specific stuff*/
+#class-wrapper {
+    
+}
+/*Remove outline when done with placeholders*/
 .outline {
     padding: 0px;
     border: white 2px solid;
+}
+@media screen and (max-width: 480px) {
+    /*mobile stuff*/
 }
