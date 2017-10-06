@@ -6,10 +6,8 @@ body {
     color: #eee;
     text-align: center;
     background-color: #8F8F8F;
-    /* To be added
     background: url(images/background.png) no-repeat center center fixed;
     background-size: cover;
-    */
 }
 #header {
     height: 150px;
