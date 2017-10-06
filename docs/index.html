@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <!--Custom Stylesheet-->
         <link rel="stylesheet" href="layout.css" type="text/css">
+        <script type="text/javascript" src="infinite-loops-v1.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
@@ -18,29 +19,20 @@
             <nav class="navbar navbar-inverse">
                 <div id="nav-wrapper" class="container-fluid">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">News</a></li>
-                        <li><a href="members.html">Our Members</a></li>
-                        <li><a href="classes.html">Classes</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a onclick="activateNews()">News</a></li>
+                        <li><a onclick="activateMembers()">Our Members</a></li>
+                        <li><a onclick="activateClasses()">Classes</a></li>
+                        <li><a onclick="activateContact()">Contact Us</a></li>
                     </ul>
                 </div>
             </nav>
         </div>
-        
-        <div class="container-fluid">
-            <div class="row content">
-                <div class="col-md-3 outline">
-                    <h1>News Placeholder</h1>
-                </div>
-                <div class="col-md-9 outline">
-                    <div class="outline">
-                        <h1>Carousel Placeholder</h1>
-                    </div>
-                    <div class="outline">
-                        <h1>Description Placeholder</h1>
-                    </div>
-                </div>
-            </div>
+        <div id="content-wrapper" class="container-fluid">
         </div>
+        <script>
+            if($(".active").length <= 0) {
+                activateNews();
+            }
+        </script>
     </body>
 </html>
