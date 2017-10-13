@@ -2,7 +2,7 @@
 
 This is a website dedicated to St. Mary's University's Computer Science club.
 
-Go here to see it run: https://catherineetter.github.io/Infinite-Loops-Website/docs/members.html
+Go here to see it run: https://catherineetter.github.io/Infinite-Loops-Website/
 # NOTE!!!!
 When adding content, add it to the html files located in the /pages directory. Do not include body or html tags when adding your code.
 
