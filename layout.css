@@ -14,25 +14,46 @@ body {
     margin: 0px;
     background-color: #333;
 }
+/**** Nav-Bar ****/
 .navbar{
     border: 0px;
     border-radius: 0px;
     border-top: 2px solid #00fbf3;
     border-bottom: 3px solid black;
-    color: #999;
+}
+#nav-wrapper {
+    background-color: #222;
 }
 #nav-wrapper ul li a:hover {
     color: #eee;
-    cursor: pointer;
     background-color: rgba(0,0,0,.2);
+    cursor: pointer;
+   
 }
-.m-title-content {
+#nav-wrapper a {
+    color: #eee;
+    text-decoration: none;
+}
+.active {
+    background-color: rgba(0,0,0,.7);
+}
+/**** General-classes ****/
+.l-title-content {
     font-size: 30px;
     text-align: center;
     text-shadow: 2px 2px black;
 }
-.s-title-content {
+.m-title-content {
+    font-size: 20px;
     text-align: center;
+}
+.s-title-content {
+    font-size: 20px;
+    text-align: left;
+}
+.body-content {
+    font-size: 16px;
+    text-align: left;
 }
 .body-box {
     text-align: left;
@@ -41,8 +62,7 @@ body {
     box-shadow: 3px 3px black;
     background: rgba(0,0,0,.7);
 }
-/****************************/
-/*classes.html*/
+/**** classes.html ****/
 #menu {
     border-bottom: 2px solid #222;
 }

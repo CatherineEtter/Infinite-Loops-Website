@@ -6,9 +6,9 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <!--Custom Stylesheet-->
         <link rel="stylesheet" href="layout.css" type="text/css">
-        <script type="text/javascript" src="infinite-loops-v1.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="infinite-loops-v1.js"></script>
     </head>
     <body>
         <div id="header-wrapper" >
@@ -16,13 +16,13 @@
                 <h1>Infinite Loops</h1>
                 <!--TODO: Add logo-->
             </header>
-            <nav class="navbar navbar-inverse">
+            <nav class="navbar">
                 <div id="nav-wrapper" class="container-fluid">
                     <ul class="nav navbar-nav">
-                        <li><a onclick="activateNews()">News</a></li>
-                        <li><a onclick="activateMembers()">Our Members</a></li>
-                        <li><a onclick="activateClasses()">Classes</a></li>
-                        <li><a onclick="activateContact()">Contact Us</a></li>
+                        <li><a onclick="activateNews()" class="nav-opt" id="nav-news">News</a></li>
+                        <li><a onclick="activateMembers()" class="nav-opt" id="nav-members">Our Members</a></li>
+                        <li><a onclick="activateClasses()" class="nav-opt" id="nav-classes">Classes</a></li>
+                        <li><a onclick="activateContact()" class="nav-opt" id="nav-contact">Contact Us</a></li>
                     </ul>
                 </div>
             </nav>
@@ -30,6 +30,7 @@
         <div id="content-wrapper" class="container-fluid">
         </div>
         <script>
+            //Executes when website is first loaded
             if($(".active").length <= 0) {
                 activateNews();
             }
