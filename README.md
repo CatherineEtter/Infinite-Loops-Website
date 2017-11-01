@@ -12,6 +12,9 @@ It will work fine when hosted by a server (or uploaded to github)
 
 ### Referencing Images or Files:
 Since the pages are inserted into index.html, write any directories referencing images or files as if that directory was written in index.html instead of the page you are editing.
+
 For example:
-instead of ../images/some-image.png in news.html
-write images/some-image.png in news.html
+
+instead of `../images/some-image.png` in news.html
+
+write `images/some-image.png` in news.html
