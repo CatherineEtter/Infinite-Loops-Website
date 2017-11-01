@@ -1,12 +1,10 @@
-html {
-}
-body {
+html,body {
     margin: 0;
     padding: 0;
     color: #eee;
     text-align: center;
-    background-color: #8F8F8F;
-    background: url(images/background.png) no-repeat center center fixed;
+    background-color: #5E5E5E;
+    /*background: url(images/background.png) no-repeat center center fixed;*/
     background-size: cover;
 }
 #header {
@@ -70,6 +68,82 @@ body {
     border: 2px solid #222;
     background-color: #333;
     float: right;
+}
+/**** members.html ****/
+.column 
+{
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 24px;
+}
+
+.card 
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container 
+{
+    width: inherit;
+    padding: 0 10px;
+    text-align: left;
+    margin-left: -1px;
+
+}
+
+.container::after, .row::after 
+{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title 
+{
+    color: grey;
+}
+
+.member-link:link
+{
+    margin: -10px;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: #00F9F1;
+    background-color: #272727;
+    text-align: left;
+    cursor: pointer;
+    width: 100%;
+    text-decoration: none
+}
+
+.member-link:visited
+{
+    margin: -10px;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: #00F9F1;
+    background-color: #000;
+    text-align: left;
+    cursor: pointer;
+    width: 100%;
+    text-decoration: none
+}
+
+.member-link:hover 
+{
+    background-color: #555;
+}
+@media (max-width: 1000px) 
+{
+    .column {
+        width: 50%;
+        display: block;
+  }
 }
 /*Remove outline when done with placeholders*/
 .outline {
