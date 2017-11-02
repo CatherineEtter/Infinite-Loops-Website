@@ -18,6 +18,11 @@ function activateContact() {
     $(".nav-opt").removeClass("active");
     $("#nav-contact").addClass("active");
 }
+function activateConstitution() {
+    $("#content-wrapper").load("pages/constitution.html");
+    $(".nav-opt").removeClass("active");
+    $("#nav-constitution").addClass("active");
+}
 function refreshClasses() {
     var classStart = "<p class=\"s-title-content\">"
     var descStart = "<p class=\"body-content\">";
